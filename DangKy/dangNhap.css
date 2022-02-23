@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/nen.png);
+}
+.dangNhap_container{
+    min-height: 300px;
+    width: 550px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+   
+    position: absolute;
+    left: 390px;
+    top: 50px;
+    box-shadow: 0 0 3px greenyellow;
+}
+.from_dangNhap{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    border-bottom: 3px solid yellowgreen;
+    text-align: center;
+    
+}
+.control{
+    outline: none;
+    height: 30px;
+    width: 55%;
+}
+.control:hover{
+    background-color: #999;
+}
+.botton_botton{
+    margin: 0  10px;
+    border: none;
+    border-radius: 3px;
+    background-color: greenyellow;
+    height: 25px;
+    color: black;
+}
+.botton_botton:hover{
+    font-weight: bolder;
+}
+.botton{
+    position: absolute;
+    left: 180px;
+}
+.soical{
+    
+    width: 100%;
+    /* border-top: 1px solid black; */
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+.soical_button_1{
+    border-radius: 3px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 10px 0 10px;
+    background-color: rgb(77, 146, 224);
+    border: none;
+}
+.soical_button_2{
+    border-radius: 3px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 10px 0 10px;
+    background-color: rgb(216, 108, 66);
+    border: none;
+}
+.soical_button_3{
+    border-radius: 3px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 10px 0 10px;
+    background-color: rgba(32, 91, 105, 0.877);
+    border: none;
+}
+.soical button:hover{
+    color: white;
+}
+#icon1{
+    color: greenyellow;
+}
+
+
